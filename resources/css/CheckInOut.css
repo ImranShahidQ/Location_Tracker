@@ -1,0 +1,78 @@
+.check-in-out-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #f0f4f8);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.check-in-out-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.check-in-out-form,
+.check-in-out-history {
+    flex: 1;
+    min-width: 100px; 
+}
+
+.check-in-out-form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.action-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #218838;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.check-in-out-history {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}

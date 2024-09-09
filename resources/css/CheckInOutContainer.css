@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+}
+
+.check-in-out-section, .history-section {
+    flex: 1;
+    min-width: 300px; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+
+.check-in-out-section {
+    margin-right: 10px;
+}
+
+.history-section {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+    
+    .check-in-out-section, .history-section {
+        margin: 0; 
+    }
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100%;
+}
